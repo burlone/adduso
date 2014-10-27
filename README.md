@@ -1,10 +1,10 @@
-adduso
+addusò
 ======
-adduso, is a italian dialect word: "dove sono", it's a open source project.<br>
-This idea is born after a American trip because my parents were concerned when not received a call from me at the fixed time... :)<br>
-Infact with adduso you can save your GPS position directly from your smartphone.<br>
-You must only connect to your administrative page and to click a button check for to save your position.<br>
-Your parents and friends can connect in your website and they see your movements.
+addusò, is a italian dialect word: "dove sono", it's an open source project.<br>
+This idea was born after an American trip when my parents were concerned when they didn't receive a call from me at a fixed time... :)<br>
+With addusò you can save your GPS position directly from your smartphone.<br>
+You only need to connect to your administration page and click the "check" button to save your position.<br>
+Your parents and friends can connect to your website and they can see your movements.
 
 Is written in PHP code and it's a easy and smart project.
 
