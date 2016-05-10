@@ -13,10 +13,6 @@ Prerequisites
 Apache 2.0 or later<br>
 php 5.3 or later
 
-Demo
-======
-Demo website:
-
 Community and reports
 ======
 To report bugs or request for new features you can use the email.
