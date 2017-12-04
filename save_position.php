@@ -4,7 +4,7 @@ include "config.php";
 date_default_timezone_set('America/New_York');
  
 $ch = curl_init();
-$url = "http://maps.googleapis.com/maps/api/geocode/json?latlng=".$_GET['lat'].",".$_GET['lon']."&sensor=false";
+$url = "https://maps.googleapis.com/maps/api/geocode/json?latlng=".$_GET['lat'].",".$_GET['lon']."&sensor=false";
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 $result = curl_exec($ch);
