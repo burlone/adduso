@@ -1,7 +1,7 @@
 <?
 include "config.php";
 
-date_default_timezone_set('Europe/Rome');
+date_default_timezone_set('America/New_York');
  
 $ch = curl_init();
 $url = "http://maps.googleapis.com/maps/api/geocode/json?latlng=".$_GET['lat'].",".$_GET['lon']."&sensor=false";
