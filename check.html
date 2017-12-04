@@ -9,7 +9,7 @@
         <p>Location: <span id="status">checking...</span></p>
         <input type="button" id="check" value='Check-out' style="display:none; background:#00880E;padding:8px; font-weight:bold;width:100%; font-size:14px;color:#fff; margin-bottom:5px" />
     </article>
-    <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyD7RZiiBho9Kg0dRHWMCvoegVqM927mJjM&callback=mapcanvas"></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script type="text/javascript" src="jquery.cook.js"></script>
     <div style='width:100%;height:auto'>
@@ -45,7 +45,7 @@
                         },
                         mapTypeId: google.maps.MapTypeId.ROADMAP
                     };
-                    var map = new google.maps.Map(document.getElementById("c"), myOptions);
+                    var map = new google.maps.Map(document.getElementById("mapcanvas"), myOptions);
 
                     var marker = new google.maps.Marker({
                         position: latlng,
