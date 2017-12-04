@@ -1,9 +1,9 @@
 <?
 include "config.php";
 
-$sql = mysql_query("SELECT * FROM `check_geo` ORDER BY id DESC");
+$sql = $mysqli->query("SELECT * FROM `check_geo` ORDER BY id DESC");
 
-while($list_check = mysql_fetch_array($sql)){
+while($list_check = mysqli_fetch_assoc($sql)){
 ?>
     <table>
         <tr>

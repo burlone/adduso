@@ -16,7 +16,7 @@ if (isset($json['results'])) {
         $data[ implode(' ',$element['types']) ] = $element['long_name'];
     }
     //print_r($data);
-    $sql = mysql_query("INSERT INTO `check_geo` (`lat`, `lon`, `route`, `street_number`, `locality`, `administrative_area_level_1`, `country`, `date`) VALUES ('".$_GET['lat']."', '".$_GET['lon']."', '".$data['route']."', '".$data['street_number']."', '".$data['locality political']."', '".$data['administrative_area_level_1 political']."', '".$data['country political']."', '".date('Y-m-d h:i:s')."');");
+    $sql = $mysqli->query("INSERT INTO `check_geo` (`lat`, `lon`, `route`, `street_number`, `locality`, `administrative_area_level_1`, `country`, `date`) VALUES ('".$_GET['lat']."', '".$_GET['lon']."', '".$data['route']."', '".$data['street_number']."', '".$data['locality political']."', '".$data['administrative_area_level_1 political']."', '".$data['country political']."', '".date('Y-m-d h:i:s')."');");
 
     echo "True";
 }
